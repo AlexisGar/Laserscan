@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">\
+  </node>
+
+  <test test-name="test_dtl" pkg="depthimage_to_laserscan" type="test_dtl" />
+
+  <!--
+    <node pkg="depthimage_to_laserscan_nodo_2" type="depthimage_to_laserscan_nodo_2" name="depthimage_to_laserscan_nodo_2">\
+  </node>
+
+  <test test-name="test_dtl" pkg="depthimage_to_laserscan_nodo_2" type="test_dtl" />
+  -->
+</launch>

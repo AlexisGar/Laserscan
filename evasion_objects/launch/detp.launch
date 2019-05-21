@@ -1,0 +1,9 @@
+
+<launch>
+    
+    <remap from="/zed/zed_node/depth/depth_registered" to= "image"/>
+    
+    <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">\
+    </node>
+    <test test-name="test_dtl" pkg="depthimage_to_laserscan" type="test_dtl" />
+</launch>
